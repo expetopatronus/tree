@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	background: #B2FFB2;
+	height: 100vh;
+	width: 100vw;
+}
+
+#canvas {
+	height: 75vmin;
+	width: 75vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #C7C7C7;
+	box-shadow: 0 2vmin 20px rgba(0,0,0,0.5);
+}
+
+.leaves {
+	border-radius: 50%;
+}
+
+#leaves1 {
+	height: 22%;
+	width: 22%;
+	background: #009C00;
+	left: 17%;
+	top: 5%;
+}
+
+#leaves2 {
+	height: 26%;
+	width: 26%;
+	background: #00C700;
+	left: 40%;
+	top: 35%;
+}
+
+#leaves3 {
+	height: 28%;
+	width: 28%;
+	background: #007200;
+	left: 60%;
+	top: 17%;
+}
+
+#leaves4 {
+	height: 33%;
+	width: 33%;
+	background: #00A400;
+	left: 12%;
+	top: 26%;
+}
+
+#leaves5 {
+	height: 25%;
+	width: 25%;
+	background: #00B500;
+	left: 50%;
+	top: 3%;
+}
+
+#wood {
+	width: 12%;
+	left: 44%;
+	height: 35%;
+	background: #BF2626;
+	top: 50%;
+}
+
+#leaves6 {
+	height: 30%;
+	width: 30%;
+	background: #006B00;
+	left: 30%;
+	top: 25%;
+}
+
+#leaves7 {
+	height: 20%;
+	width: 20%;
+	background: #00BE00;
+	left: 50%;
+	top: 23%;
+}
+
+#leaves8 {
+	height: 23%;
+	width: 23%;
+	background: #00B400;
+	left: 35%;
+	top: 8%;
+}
+
+#root {
+	width: 40%;
+	height: 2%;
+	background: #BF2626;
+	left: 30%;
+	top: 83%;
+	border-radius: 50%;
+}
